@@ -60,12 +60,6 @@ export default {
       ]
     }
   },
-  data() {
-    return {
-      items: [],
-      statesGroupedItems: {}
-    }
-  },
   computed: {
     states() {
       return this.$store.state.todos.states

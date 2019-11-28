@@ -5,37 +5,37 @@ export default (context) => {
         title: 'GTD TodoList',
         description: 'My GTD application',
         workspace: 'workspace',
-        languages: 'Lingue',
-        all: 'Tutti',
-        edit: 'Modifica',
-        remove: 'Elimina',
-        cancel: 'Annulla',
-        confirm: 'Conferma',
-        save: 'Salva'
+        languages: 'Languages',
+        all: 'All',
+        edit: 'Edit',
+        remove: 'Remove',
+        cancel: 'Cancel',
+        confirm: 'Confirm',
+        save: 'Save'
       },
       todos: {
         fields: {
-          title: 'Titolo',
-          date: 'Scadenza',
-          state: 'Stato',
-          description: 'Descrizione'
+          title: 'Title',
+          date: 'Date',
+          state: 'State',
+          description: 'Description'
         },
         states: {
-          inbox: 'Raccolta',
-          next: 'Prossime azioni',
-          calendar: 'Calendario',
-          maybe: 'Forse',
-          archive: 'Archivio'
+          inbox: 'Inbox',
+          next: 'Next Actions',
+          calendar: 'Calendar',
+          maybe: 'Maybe',
+          archive: 'Archive'
         },
-        edit: 'Modifica todo',
+        edit: 'Edit todo',
         sectionName: 'Todo',
-        state: 'Stato',
-        add: 'Crea nuovo todo',
-        date: 'Data',
-        remove: 'Elimina Todo',
-        removeConfirm: 'Sei sicuro di voler eliminare il todo {name}?',
-        removeDone: 'Todo eliminato con successo!',
-        modifyDone: 'Todo modificato con successo!'
+        state: 'State',
+        add: 'Create new todo',
+        date: 'Date',
+        remove: 'Delete Todo',
+        removeConfirm: 'Do you want to delete todo {name}?',
+        removeDone: 'Todo deleted!',
+        modifyDone: 'Todo edited!'
       }
     })
   })
