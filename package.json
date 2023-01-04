@@ -13,7 +13,7 @@
     "server": "json-server --watch db.json"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-buefy": "^0.3.2",
     "nuxt-i18n": "^6.3.0",
     "vuedraggable": "^2.23.2"
